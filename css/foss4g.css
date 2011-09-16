@@ -1,0 +1,78 @@
+body {position:relative; width:100%; height:100%; background:url('../img/bkg.jpg') repeat 0 0}
+div#map {position:absolute; top:0; left:0; width:100%; height:100%; opacity:0; z-index:0;}
+
+/*loader*/
+span.loader {position:absolute; top:50%; left:50%; height:50px; width:50px; padding:0; margin:-25px 0 0 -25px; border-radius:10px; z-index:100; background:url('../img/loader.gif') no-repeat 9px 9px rgba(0,0,0,0.7)}
+
+.slide {opacity:0}
+.deck-status {display:none}
+a.twitter {position:absolute; bottom:25px; right:20px; padding:2px 35px 7px 0; font:normal 15px "Helvetica Neue",Arial; color:#FFFFFF; text-shadow:0 0 4px #999999; background:url('../img/twitter.png') no-repeat right 0;
+  text-decoration:none; z-index:100}
+a.twitter:hover {text-decoration:underline; }
+a.github {position:absolute; top:0; right:-4px; display:block; width:137px; height:137px; background:url('../img/github.png') no-repeat 0 0; z-index:100; text-indent:-9999px}
+a.github.no {background:url('../img/no-github.png') no-repeat 0 0;}
+
+/*central*/
+.slide div.central {position:relative; width:80%; height:auto; padding:20px 50px; margin:0px auto 0; border-radius:10px; background:rgba(0,0,0,0.8)} 
+.slide div.left {position:relative; float:left; width:40%; height:auto; padding:20px 50px; margin:100px auto 0; border-radius:10px; background:rgba(0,0,0,0.8)}
+.slide div.right {position:relative; float:right; width:40%; height:auto; padding:20px 50px; margin:100px auto 0; border-radius:10px; background:rgba(0,0,0,0.8)}
+.slide div.central h1 {position:relative!important; top:0; padding:0; margin:0; font:bold 50px "Helvetica Neue",Arial; color:white; -webkit-transform:none; -moz-transform:none; -o-transform:none; transform:none; -ms-transform:none;
+  line-height:54px}
+.slide div.central.first {margin:40px 0 0 0;}
+.slide p {width:auto!important; font:normal 45px "Helvetica Neue",Arial; color:#e7e7e7; line-height:45px}
+.slide p.margin {margin:30px 0 0 0}
+.slide div p.point {padding:5px 0 5px 30px; margin:30px 0 0 90px; font-size:35px; background:url('../img/marker.png') no-repeat 0 10px;}
+.slide h2 {font:bold 50px "Cantarell","Helvetica Neue"; color:white; border-bottom:none; letter-spacing:-1px; color:#90BB08}
+.slide h2.special {color:#00CCFF}
+.slide ul {padding:0; margin:0 0 0 20px; color:#e7e7e7;}
+.slide ul li {padding:5px 0 0 0;}
+.slide p a {text-decoration:none; color:#0099CC}
+.slide p a:hover {text-decoration:underline}
+.slide p a:hover strong {text-decoration:underline}
+.slide p strong {font-weight:normal}
+.slide p strong.g1 {color:#CFD300;}
+.slide p strong.g2 {color:#B2C800;}
+.slide p strong.g3 {color:#90BB08;}
+.slide p strong.g4 {color:#86B82E;}
+.slide p strong.g5 {color:#84B82C;}
+.slide p.quotes {font-style:italic; line-height:45px}
+.slide p.quotes strong {font:bold 40px "Georgia","Verdana"}
+
+.slide div.features {background:none; width:736px; margin:0px auto 0;}
+.slide div.features h2 {width:100%; text-align:center}
+.slide div.features h1 {line-height:90px}
+.slide div.features ul {margin:0 auto;}
+.slide div.features ul.tiny {width:200px}
+.slide div.features ul.short {width:580px;}
+.slide div.features ul.long {width:700px;}
+.slide div.right.features {float:right; width:450px; padding:0; margin:80px 0 0 0; background:none;}
+.slide div.left.features {float:left; width:450px; padding:0; margin:100px 0 0 0; background:none;}
+.slide div.left.features h2 {width:100%; text-align:center}
+
+.slide ul.browsers {position:relative; width:395px; margin:0 auto; list-style:none}
+.slide ul.browsers li {display:inline-block; width:84px; height:84px; margin:0 15px 0 0}
+.slide ul.browsers li.last {margin:0}
+.slide ul.browsers li a {float:left; width:100%; height:100%; background:url('../img/browsers.png') no-repeat 0 0; text-indent:-9999px}
+.slide ul.browsers li a:hover {background-position:0 -84px}
+.slide ul.browsers li a.safari {background-position:-84px 0}
+.slide ul.browsers li a.safari:hover {background-position:-84px -84px}
+.slide ul.browsers li a.chrome {background-position:-168px 0}
+.slide ul.browsers li a.chrome:hover {background-position:-168px -84px}
+.slide ul.browsers li a.firefox {background-position:-252px 0;}
+.slide ul.browsers li a.firefox:hover {background-position:-252px -84px}
+
+.slide div.features span.image {position:relative; display:inline-block; width:736px; padding:41px 18px 0; background:url('../img/browser_bkg.png') no-repeat 0 0}
+.slide div.features span.image.no {width:auto; padding:0; background:none;}
+.slide div.features span.image img {float:left; margin:0}
+.slide div.features p.center {width:100%; text-align:center}
+.slide div.features a:hover {text-decoration:underline; color:#0099CC}
+
+.slide div.features p.margin.small {margin:50px 0 0 0; font-size:14px;}
+
+.slide div.features span.highlight {display:block; margin:50px 0 0 0;}
+.slide div.features span.highlight ul {float:left; width:350px; margin:30px 0 0 0;}
+.slide div.features span.highlight img {float:right; margin:30px 0 0 0; border-radius:5px; box-shadow:0 0 15px 0 rgba(0,0,0,0.7)}
+
+.slide div.features span.compare {float:left; width:300px; margin:10px 0 0 0;}
+.slide div.features span.compare a img {width:300px; border-radius:5px; box-shadow:0 0 15px 0 rgba(0,0,0,0.7)}
+.slide div.features p.big {float:left; margin:80px 20px 0 20px}

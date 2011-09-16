@@ -1,0 +1,68 @@
+1) Title and Jamon contacts
+    My name is... and i live in Madrid
+    I work for Vizzuality as Frontend developer
+    Sorry for my english... Ill do my best, the slides will be available online.
+
+2) In this presentation...
+    I wanna show you some projects we have developed
+    And use them to show some new great functionalities available through HTML5
+    
+3) What is HTML5
+    Everybody should know by now, but for those who dont, is a new set of funcitonalities available on new browsers
+    like Video, Canvas, CSS3, etc.
+
+4) Where can I use HTML5?
+    -IE 9, Safari... etc.
+    -Some technologies appeared before than others in different browsers versions.
+
+5) Evolution of the Web (DEMO)
+    -And one project we released some weeks ago comes very handy. So you can see where the different technolgoies become availble on the different browsers
+    -And if you need to see on detail when it becoma evailble take a look at youcanuseit.
+    
+6) So let me show you some projects we have been working on where we use some of this functionality
+
+7) Home de GeoCAT
+    -GeocAT is a Rich Internet Application to Perform geospatial analysis of endangered species data.
+    -That is, it is a tool to help scientist to find out if a species is endangered or not, and if it has to be protected.
+    -So it is a great resposansibility, the best the tool works, the more species are protected.
+
+8) EDITOR DEMO
+    All functionalities
+    
+9) Snipets
+
+    9.1) Infowindows
+    9.2) Tools
+
+
+10) IMAZON screenshot
+    -We have been working on this project with Google. The objetive is to validate the results of deforestation models in the Amazonas.
+    -The most interesting part of this project to me is the way we are using Canvas to render raster data dynamically on the browser
+    -Something I really like is that we implemented something similar 2 yrs. ago but we had to use Flash because HTML5 was not hat stablished and tbrowsers where not fast enough.
+    Now, the HTML5 version runs faster in JS in Chrome or Safari than in Flash.
+    (DEMO compare http://mountainbiodiversity.org/tool.html#/4_33.57_87.98/2220_7889/200_3397/1_1_1_1_1_1_1_1/All) AGAINST 
+    http://visualraster.appspot.com/
+    
+    
+11) Demo imazon
+
+
+
+12) Snipets
+    -VisualRaster: Using Canvas
+    -CORS: Google Maps and Google Earth Engine already have it. Something that OSM MapQuest would be nice to add.
+    ....
+
+
+
+
+
+13) Status of Map Libraries and HTML5
+    _-Leafleft
+    -Cartagen...
+    
+    
+14) Conclussions
+    -HTML5 provides great functionality for web mapping
+    -It is possible to develop entire engaging UIs just using JQuery.
+    -....
